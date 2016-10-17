@@ -1,0 +1,417 @@
+
+
+.body-bg{
+	background-image: url(http://localhost/shop/images/bg_d9.png);
+	width: 1350px;
+	height: 100%;
+	height:auto;
+	background-repeat: no-repeat;
+	font-family: arial;
+}
+.wraper{
+	margin: -10px 135px 10px 135px;
+}
+.header-nav{
+	background-image: url(http://localhost/shop/images/vien-2.png);
+	background-repeat: repeat-x;
+	width: 1080px;
+	height: 51px;
+	margin-top: 2px;
+	float: left;
+}
+
+.header{	
+	width: 1080px;
+	height: 159px;	
+}
+.logo{
+	text-decoration: underline;
+	float:left;
+}
+.bannerheader{
+	float: right;
+	margin-right: 100px;
+}
+.personalArea{
+	float: right;
+	width: 105px;
+	height: 40px;
+	padding-right: 13px;
+}
+.personalArea i:hover{
+	background-color: #000099;
+	color: red;
+}
+#personal{
+	background-color: #FF0000;
+	color: #FFFFCC;
+	float: right;
+	margin-right: 15px;
+	margin-top: 15px;
+	border-width: 50px;
+}
+.social-icons{
+	color: #FFFFCC;
+	float: right;
+	width: 196px;
+	height: 40px;
+}
+.socialList{
+	list-style-type: none;
+	display: block;
+	text-align: center;
+}
+.socialList li:hover {
+	background-color: #000099;
+	color: red;
+}
+.socialList li {
+	padding-right: 10px;
+ 	display: inline-block;
+ 	background-color: #FF0000;
+}
+.header-nav{
+	margin-top: 2px;
+}
+
+/*Start Slider*/
+.slide-holder{
+margin:0 auto;
+}
+.slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+height: 150px;
+width: 100%;
+overflow: hidden;
+position:relative;
+}
+.slide-stage{
+position: absolute;
+}
+.slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float:left;
+width:180px;
+height:150px;
+text-align: center;
+}
+.slide-image img{
+width:95%;
+margin:0 auto;
+}
+.slide-pager{
+position:relative;
+}
+.slide-control-prev {
+position: absolute;
+text-align: center;
+width: 25px;
+height: 60px;
+background-color: transparent;
+line-height: 60px;
+color: #000;
+cursor: pointer;
+top: 35px;
+left: -30px;
+}
+.slide-control-prev:hover{
+position: absolute;
+text-align: center;
+width: 25px;
+height: 60px;
+background-color: #c1c1c1;
+line-height: 60px;
+color: #000;
+cursor: pointer;
+top: 35px;
+left: -30px;
+}
+.slide-control-next{
+position: absolute;
+text-align: center;
+width: 25px;
+height: 60px;
+background-color: transparent;
+line-height: 60px;
+color: #000;
+cursor: pointer;
+right: -30px;
+top: 35px;
+}
+.slide-control-next:hover{
+position: absolute;
+text-align: center;
+width: 25px;
+height: 60px;
+background-color: #c1c1c1;
+line-height: 60px;
+color: #000;
+cursor: pointer;
+right: -30px;
+top: 35px;
+}
+/*End Slider*/
+
+/*Start CSS menu*/
+* (margin: 0; padding: 0;)
+
+#wrapperr{ width: 800px; margin: 20px auto;}
+
+#menu, #menu ul{
+list-style: none;
+position: relative;
+line-height: 1.5em;
+}
+
+#menu a:link, #menu a:active, #menu a:visited{
+display: block;
+padding: 0px 5px;
+border: 0px solid #3883CC;
+color: #FFCC00;
+text-decoration: none;
+background-image: url(images/menu-bor.gif);
+}
+
+#menu a:hover {background: #cf0a0a; color: #FFFFCC;}
+
+#menu li {float: left; position: relative;}
+
+#menu ul {position: absolute; width: 12em; top: 1.5 em; display: none; z-index: 9999;background-image: url(images/menu-bor.gif);}
+
+#menu li ul a {width: 12em; float: left;}
+
+#menu ul ul {top: auto;}
+
+#menu li ul ul {left: 12.2em; margin: 0px 0px 0px 10px;}
+
+#menu li:hover ul ul,
+#menu li:hover ul ul ul,
+#menu li:hover ul ul ul ul {
+display: none;
+}
+
+#menu li:hover ul,
+#menu li li:hover ul,
+#menu li li li li:hover ul{
+width: auto;
+border: 1px solid #BB0000;
+background: #cf0a0a;
+display: block;
+}
+/*End CSS menu*/
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+	color: yellow;
+    text-decoration: none;
+}
+.monkey{
+	float: right;
+	margin-right: 80px;
+}
+.contactDefault{
+	list-style-type: none;
+	display: inline-block;	
+	margin-left: -20px;
+}
+
+.contactDefault li {
+  display: inline-block;
+  width: 210px;
+  height: 51px;
+  float: left;
+  margin-right: 4px;
+  color: #de301b;
+  font-size: 15px;
+}
+
+.navbar li{
+	list-style-type: none;
+ 	display: inline-block;
+	color: #EE0000;
+	margin: 18px 5px 15px 20px;
+	padding-left: -100px;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+
+.bg2{
+	background-color: white;
+	height: 2255px;
+
+}
+#menu{
+	margin-top: 40px;
+	background-image: url(http://localhost/shop/images/menu-bor.gif);
+	background-repeat: repeat-x;
+	width: 1040px;
+	height: 50px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+#menu li{
+	display: inline-block;
+	text-decoration: none;
+	margin: 0px 0px 0px 12px;
+	line-height: 50px;
+}
+
+.third-nav{
+	height: 40px;
+	list-style-type: none;   
+	display: inline-block;	
+	background-image: url(hoa-tiet.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	vertical-align: center;
+    position: relative;
+    margin-top: -25px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.time{
+	float: left;
+	height: 30px;
+} 
+.search {
+    float: right;
+    margin-left: 677px;
+    padding-right: 13px;
+}
+.maincontent{
+	width: 808px;
+	height: auto;
+	margin: 3px;
+	padding: 0px;
+	display: inline-block;
+
+}
+.news_column{
+	margin-top: 10px;
+	height: 400px;
+	width: 808px;
+}
+.panel-default{
+	clear: both;
+	width: 800px;
+}
+.panel-heading span{
+	color: #FFFF33;
+}
+.panel-heading {
+    width: 564px;
+    height: 62px;
+    background-color: #770000;
+    padding: 0px -30px 0 -15px;
+    border: 3px solid #FF9966;
+    border-radius: 29px;
+    clear: both;
+}
+.panel-body{
+	width: 771px;
+    height: auto;
+    border: 0px;
+	list-style: none;
+ 	display: inline-block;
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+	border-style: solid;
+    border-color: #770000;
+    font-size: 15px;
+}
+.panel-body li {
+	padding: 10px 10px 10px 25px;
+ 	display: inline-block;
+	list-style: none;
+	text-align: center;
+}
+.panel-body p {
+	border: 1px solid;
+    border-radius: 25px;
+}
+.sidebar {
+    width: 261px;
+    float: right;
+    padding: 0px;
+    clear: both;
+    margin: 3px -5px 10px 5px;
+    display: inline-block;
+}
+.panel-primary{
+	background-image: url(images/menu-bor.gif);
+	width: 250px;
+	height: auto;
+	display: inline-block;
+	border-style: solid;
+    border-width: 1px;
+    margin: 0px 0px 20px 0px;
+}
+.panel-primary-title p{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 0px;
+	float: right;
+	margin-right: 100px;
+}
+.panel-body{
+	width: auto;
+	height: auto;
+	border-width: 1px; 
+}
+
+#footer{
+	width: 1080px;
+	height: auto;
+	margin: 0px 0px 33px 135px;
+	background-image: url(localhost/shop/images/ft.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   	display: inline-block;
+
+}
+.ft1{
+	display: inline-block;
+}
+.ft1a{
+	text-decoration: underline;
+}
+.footerNav2{
+	background-position: center;
+	background-color: #770000;
+	width: 1344px;
+	height: 60px;
+}
+#z {
+	padding-left: 30px;
+	display: inline-block;
+}
+.tittle-subfooter {
+	font-size: 17px;
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
