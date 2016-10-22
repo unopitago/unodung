@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800');
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('../fonts/Bariol_Regular.otf') format('opentype'), 
+    url('../fonts/Bariol_Regular_Italic.otf') format('opentype'), 
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Start style header*/
+
+/*Start style Logo*/
+.navbar-default {
+    background-color: #f56262;
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Bariol';
+    margin-bottom: 0%;
+
+}
+/*.navbar-header{padding: 1.02564% 0.8547%;}*/
+
+.navbar-header{width: 20%; color: #fff;}
+.logo .above-logo img{float: left;}
+.logo h2 {
+    font-size: 250%;
+    padding-top: 3%;
+    letter-spacing: 3px;
+}
+.logo h5 {
+    padding-left: 3%;
+    letter-spacing: 1.8px;
+    margin-top: -4%;
+    margin-bottom: 8%;
+}
+.navbar-header .logo a{color: #fff;}
+.navbar-header .logo a:hover{color: #fff; text-decoration: none;}
+
+/*End style logo*/
+
+/*Start style navbar*/
+
+
+.navbar-default .navbar-nav {
+    padding-top: 27px;
+    margin-right: 10px;
+}
+.navbar-default .navbar-nav li{margin-right: 25px;}
+.navbar-default .navbar-nav > li > a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #fff;
+    background-color: #232324;
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+.navbar-default .navbar-nav >  .active > a{
+    color: #fff;
+    background-color: #232324;
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+/*End style navbar*/
+
+/*Start style bannerheader*/
+
+.bannerheader{background: #eb4f4e;}
+.welcometo{color: #fff; font-family: 'Bariol';}
+.welcometo h1{font-size: 60px; line-height: 10px; letter-spacing: 8px; text-transform: capitalize; margin-top: 80px;}
+.welcometo h5{font-size: 20px; text-transform: capitalize;margin-top: 48px; margin-bottom: 50px; letter-spacing: 2px;}
+.carousel-inner {
+    margin-bottom: 40px;
+}
+
+.bannerheader section .slider-fake  img{
+    width: 100%;
+    max-height: 430px;
+}
+
+
+/*End style bannerheader*/
+
+/*Start style slider*/
+.dg-container{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.dg-wrapper{
+    width: 481px;
+    height: 316px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+}
+.dg-wrapper a{
+    width: 482px;
+    height: 316px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: transparent url(../images/browser.png) no-repeat top left;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+    display: block;
+    padding: 41px 0px 0px 1px;
+}
+.dg-wrapper a div{
+    font-style: italic;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    bottom: -55px;
+    display: none;
+    position: absolute;
+}
+.dg-wrapper a.dg-center div{
+    display: block;
+}
+.dg-container nav{
+    width: 58px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -29px;
+}
+.dg-container nav span{
+    text-indent: -9000px;
+    float: left;
+    cursor:pointer;
+    width: 24px;
+    height: 25px;
+    opacity: 0.8;
+    background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.dg-container nav span:hover{
+    opacity: 1;
+}
+.dg-container nav span.dg-next{
+    background-position: top right;
+    margin-left: 10px;
+}
+/*End style slider*/
+
+/*End style header*/
+
+/*Start style marist content*/
+
+.marist{background: #232324; font-family: 'Bariol';padding-bottom: 25px;}
+.marist-content .title h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin-top: 50px;
+}
+.marist-content .title p{
+    font-size: 20px;
+    color: #d94948;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.marist-content .row{padding: 0 68px;}
+.marist-content .row img{margin-bottom: 10px;}
+.marist-content .row h3{
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.marist-content .row p{
+    font-size: 18px;
+    color: #e74c3c;
+    letter-spacing: 1px;
+}
+
+/*End style marist content*/
+
+/*Start style team content*/
+
+.team{
+    background: #6cc372;
+    font-family: 'Bariol';
+    padding-bottom: 40px;
+}
+.team-content .title{}
+.team-content .title h2{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.team-content .title p{
+    font-size: 20px;
+    color: 232324;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+/*.team-content .row {
+    background-color: #fff;
+    border-right: 13px solid #6cc372;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 1em;
+}*/
+.team-column {
+    background: #fff;
+    border-radius: 19px;
+    margin-right: -5%;
+    margin-bottom: 3%;
+}
+
+.team-content .row img {
+    padding-top: 6%;
+    padding-bottom: 3%;
+    max-width: 70%;
+}
+.team-content .row h4{
+    color: #61af66;
+    font-size: 25px;
+}
+.team-content .row p{
+    color: #e74c3c;
+    font-size: 18px;
+}
+.team-content .row button {
+    margin-bottom: 5%;
+    background: #6cc372;
+    color: #fff;
+    border: 0px;
+    padding: 0 25%;
+    border-radius: 5px;
+    font-size: 200%;
+}
+
+/*End style team content*/
+
+
+/*Start style portfolio content*/
+
+.portfolio{background: #f0f0f0;}
+.portfolio-content{}
+.portfolio-content h2{font-size: 40px; color: #616161; letter-spacing: 3px; padding-top: 30px;}
+.portfolio-content p{color: #61af66; font-size: 20px; letter-spacing: 1px;}
+.portfolio-content img{padding-bottom: 200px; width: 100%; height: auto;}
+
+/*End style portfolio content*/
+
+/*Start style pricing content*/
+
+
+/*.pricing{max-height: 31em;}
+*/.startup .title1 ul{
+    padding-left: 0px;
+    overflow: hidden;
+}
+.title2 .detail-pricing ul{
+    padding-left: 0px;
+    overflow: hidden;
+}
+.content li {
+    list-style: none;
+    color: #616161;
+    font-size: 135.714%;
+    background: #f0f0f0;
+    width: 113%;
+    margin-left: -12.76471%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 0.6%;
+}
+
+.pricing-table .title1{background: #fff; line-height: 335%; border-radius: 15px 15px 0px 0px;}
+.pricing-table .title1 h2{font-size: 287%; color: #616161;padding-top: 5.6%;}
+.pricing-table .title1 p {font-size: 182.85714%; color: #eb4f4e; padding-bottom: 2.8%; margin-bottom: 0%;}
+
+.pricing-table .title2{background: #fff; line-height: 328%; margin-bottom: -9.6%; border-radius: 15px 15px 0px 0px;}
+.pricing-table .title2 h2{font-size: 287%; color: #eb4f4e;padding-top: 5.6%;}
+.pricing-table .title2 p{font-size: 182.85714%; color: #616161; padding: 0px 2.8%;}
+
+.value-pricing1 {background: #616161; margin-top: -3%; border-radius: 0px 0px 15px 15px; padding-bottom: 4%;}
+.value-pricing1 span{font-size: 210%; color: #fff; margin-left: 0%;}
+.value-pricing1 b{font-size: 222.71429%;}
+
+.value-pricing2 {background: #eb4f4e; margin-top: -3%; border-radius: 0px 0px 15px 15px; padding-bottom: 4%;}
+.value-pricing2 span{font-size: 210%; color: #fff; margin-left: 0%;}
+.value-pricing2 b{font-size: 222.71429%;}
+
+.value-pricing1 button {
+    border-radius: 4px;
+    background: #fff;
+    border: none;
+    font-size: 150%;
+    color: #616161;
+    padding: 1px 8%;
+    margin-left: 15%;
+}
+.value-pricing2 button{
+    border-radius: 4px;
+    background: #fff; 
+    border: none; 
+    font-size: 150%; 
+    color: #eb4f4e;
+    padding: 1px 8%;
+    margin-left: 15%;
+}
+.img-standard img{
+    position: relative;
+    top: -0.95em;
+}
+.standard{
+    position: relative;
+    bottom: 3.8775em;;
+}
+.pricing-table{
+    position: relative;
+    bottom: 10.695em;;
+}
+.pricing{
+    font-family: 'Bariol';
+}
+.pricing-bottom {
+    font-size: 142.85714%;
+    color: #eb4f4e;
+    position: relative;
+    bottom: 8.875em;
+}
+/*End style pricing content*/
+
+/*Start tweets content*/
+
+.tweets{font-size: 'Bariol'; background: #eb4f4e;}
+.tweets-content .title h2{letter-spacing: 7px;font-size: 40px; color: #fff;padding-top: 50px;}
+.tweets-content .title p{letter-spacing: 1px;font-size: 20px; color: #232324;}
+.tweets-content .slider-footer img{margin-bottom: 25px; width: 100%; height: auto;}
+
+
+/*End tweets content*/
+
+/*Start style footer*/
+
+.footer{font-family: 'Bariol'; background: #232324;}
+.footer .copy .copyright{background: #232324;}
+.footer .copy .copyright h5{color: #fff; font-size: 18px; letter-spacing: 2px;}
+.footer .copy .copyright h5 span{}
+.footer .copy .social {margin-top: 2px;}
+.footer .copy .social i {
+    float: left;
+    color: #fff;
+    margin-right: 9px;
+    padding: 6px;
+    background: #eb4f4e;
+    font-size: 15px;
+}
+.footer .copy {margin: 12px 74px;}
+.footer .bg-map {margin-left: -25px;}
+
+.footer .bg-map{position: relative;}
+.footer .info{position: absolute; top: 10px; opacity: 0.4;}
+.footer .info {
+    color: red;
+    position: relative;
+    top: 132px;
+    opacity: 0.8;
+    z-index: 9999;
+    background: #39382e;
+    margin: -72px 340px;
+}
+.footer .info h3{font-size: 30px; color: #fff;}
+.footer .info p{    
+    color: #eb4f4e;
+    font-size: 20px;
+    line-height: 40px;
+}
+/*End style footer*/
+
+
+/*Responsive Webiste*/
+
+@media only screen and (max-width: 319px){
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .logo{
+        margin-left: 4%;
+    }
+    .navbar-header{
+        width: 100%;
+    }
+    .logo h5 {
+        margin-top: -1%;
+    }
+    .logo h2 {
+        padding-top: 1%;
+    }
+
+    .welcometo h1 {
+        font-size: 130%;
+    }
+    .team-column {
+        width: 48%;
+        background: #fff;
+        border-radius: 19px;
+        margin-right: -5%;
+        margin-left: 25%;
+        margin-bottom: 3%;
+    }
+    .team-content .row h4 {
+        font-size: 113%;
+    }
+    .team-content .row p {
+        font-size: 100%;
+    }
+    .team-content .row button {
+        font-size: 100%;
+    }
+
+    
+
+    .detail-pricing{
+        overflow: hidden;
+        padding-left: 0px;
+        width: 101.8%;
+    }
+    .pricing-table .title1 {
+        width: 102.2%;        
+        border: 1px solid #f2f2f2;
+        background: #CCCCFF;
+    }
+    .pricing-table .title1 h2 {
+        font-size: 250%;
+        color: #616161;
+        padding-top: 5.6%;
+    }
+    .pricing-table .title1 p {
+        font-size: 164.85714%;
+    }
+    .pricing-table .title2 p{
+        font-size: 108.85714%;
+    }
+    .value-pricing1 {
+        width: 102%;
+        border: 1px solid #f2f2f2;
+        background: #CCCCFF;
+        margin-top: -4%;
+        margin-bottom: 32%;
+    }
+    .value-pricing1 span {
+        font-size: 150%;
+        color: #fff;
+        margin-left: -20%;
+    }
+    .pricing-table .title2 {
+        width: 102%;    
+        background: #FFFFCC;
+        border: 1px solid #f0f0f0;
+    }
+    .value-pricing2 {
+        width: 102%;
+    }
+
+    .startup {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 87%;
+        width: 60%;
+    }    
+    .standard {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 87%;
+        width: 60%;
+    }
+    .professional {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 87%;
+        width: 60%;
+    }
+    .content li {
+        list-style: none;
+        color: #616161;
+        font-size: 119%;
+        background: #f0f0f0;
+        max-width: 100%;
+        min-width: 118%;
+        margin-left: -15.76471%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 0.6%;
+        padding-right: 13%;
+        padding-left: 13%;
+    }
+    .pricing-bottom {
+        padding-top: 7%;
+    }
+    
+    
+    
+
+}
+@media only screen and (min-width: 768px) and (max-width: 989px){
+    
+    .navbar-header{
+        width: 70%;
+        padding-left: 36%;
+    }
+    .team-content .row button {
+        font-size: 264%;
+    }
+    
+
+    .content li {
+        margin-left: -6.46471%;
+    }
+    .pricing-table .title1 {
+        width: 106.2%;
+        border: 1px solid #f2f2f2;
+        background: #FFCCFF;
+    }
+    .value-pricing1 {
+        width: 106.2%;
+    }
+    .pricing-table .title2 {
+        width: 106.2%;
+        border: 1px solid #f2f2f2;
+        background: #FFCCFF;
+        padding-bottom: 6%;
+    }
+    .value-pricing2 {
+        width: 106.2%;
+    }
+    .standard{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 90%;
+    }
+    .professional{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 90%;
+    }
+    .startup{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 90%;
+        position: relative;
+        top: -2em;
+    }
+    .img-standard img {
+        position: relative;
+        top: -0.1em;
+    }
+    .pricing-bottom {
+        padding-top: 7%;
+    }
+
+}
+@media only screen and (min-width: 990px) and (max-width: 1199px){
+
+    .navbar-default .navbar-nav li {
+        margin-right: 0%;
+    }
+    .team-content .row button {
+        font-size: 165%;
+    }
+    .content li {
+        list-style: none;
+        color: #616161;
+        font-size: 135.714%;
+        background: #f0f0f0;
+        width: 116%;
+        margin-left: -15.76471%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin-bottom: 0.6%;
+    }
+    .standard {
+        bottom: 4.4775em;
+    }
+    .pricing-table {
+        bottom: 10.295em;
+    }
+
+}
+@media (min-width: 1200px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
