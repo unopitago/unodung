@@ -1,0 +1,1395 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:200,300,400,500,700,900');
+
+
+/*
+-----------------------------------------------
+Theme: Max - Landing Page
+Version 1.0
+Author: okthemess
+-----------------------------------------------
+1) Global CSS
+2) Top Navigation Bar
+3) Home Section 
+4) About us section
+5) Work Section 
+6) Customer Say Section / Testimonials
+7) Numbers Section
+8) Meet The Team Section
+9) Skills or Experties Section
+10) Packages or Purchases Section 
+11) Blue Slider Section
+12) Blog Section
+13) MAP Section
+14) Contact Section
+15) Footer Section
+16) Creative Works/Portfolio Section
+17) Responsive 
+-----------------------------------------------
+*/
+
+/*
+-----------------------------------------------
+	1) Global CSS
+-----------------------------------------------
+*/
+html,
+body {
+	/*width: 100%;
+	height: 100%;*/
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	background: url(../images/background.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 70px;
+}
+
+.center {
+	text-align: center;
+}
+
+.max-section-title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #363636;
+	font-family: Raleway;
+	border-bottom: 1px solid #363636;
+	font-size: 18px;
+	padding-top: 50px;
+}
+.center-it {
+	display: block;
+    text-align: -webkit-center;
+}
+img {
+	max-width: 100%;
+}
+.block {
+	display: block;
+}
+.none {
+	display: none !important;
+}
+/*
+-----------------------------------------------
+	2) Top Navigation bar
+-----------------------------------------------
+*/
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: Montserrat;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: #00b3e4 !important;
+	background-color: transparent;
+}
+.navbar-brand img { margin-top: -7px; }
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+    right: 0;
+	z-index: 999;
+}
+header.sticky {
+	background: #fff;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	color: #363636 !important;
+	transition: .5s ease;
+}
+header.sticky .navbar-default .navbar-nav>li>a {
+	color: #363636 !important;
+}
+header.sticky .navbar-default .navbar-nav>li>a:hover {
+	color: #00b3e4 !important
+}
+header.sticky .navbar-default .navbar-brand {
+	color: #363636 !important;
+}
+/*
+-----------------------------------------------
+	3) Home Section 
+-----------------------------------------------
+*/
+
+div#max-title {
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	font-family: Raleway;
+}
+
+#max-title span {
+	color: #00b3e4;
+	font-family: Raleway;
+	font-weight: bold;
+}
+
+#max-paragraph {
+	color: #fff;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 5px;
+}
+
+div#max-top-buttons {
+	text-align: center;
+	padding-top: 20px;
+}
+div#max-top-buttons .btn {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div#hero-section {
+	margin-top: 175px;
+	padding-bottom: 250px;
+}
+
+.btn {
+	border-radius: 15px !important;
+}
+
+.btn-primary {
+	color: #fff !important;
+	background-color: transparent !important;
+	border-color: #dbd9d7 !important;
+	text-transform: uppercase !important;
+	font-family: Raleway;
+	font-size: 15px !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    border-color: #00b3e4 !important;
+    background-color: #00b3e4 !important;
+}
+
+
+/*
+-----------------------------------------------
+	4) About us Section 
+-----------------------------------------------
+*/
+
+#max-aboutus-section {
+	background: #ffffff;
+}
+
+#aboutus-section {
+	background: #ffffff;
+	margin-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+}
+
+#aboutus-section p {
+	color: #363636;
+	font-family: Raleway;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.subheading {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	color: #5e5e5e;;
+	font-size: 28px;
+}
+
+div#about-para {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: 15px;
+	font-family: Raleway;
+	line-height: 24px;
+}
+
+p#para-big {
+	font-family: Raleway;
+	font-size: 20px;
+	color: #363636;
+}
+
+div#about-right {
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+#box {
+    background: #f6f6f6;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+#box p {
+	font-family: Raleway;
+	font-size: 15px;
+	color: #363636;
+	line-height: 24px;
+}
+
+h2.box-title {
+	text-transform: uppercase;
+	font-family: Raleway;
+	font-size: 25px;
+	color: #363636;
+}
+
+#max-featured-section {
+	background: #fff;
+	width: 100%;
+}
+
+#max-feature-section {
+	background: #fff;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+div#max-feature-para {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 24px;
+    color: #363636;
+}
+
+div#image-block {
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+
+#max-feature-section p {
+    font-family: Raleway;
+    font-size: 15px;
+    color: #363636;
+    line-height: 24px;
+}
+
+.max-below {
+	padding-top: 60px;
+}
+
+
+
+/*
+-----------------------------------------------
+	5) Work Section
+-----------------------------------------------
+*/
+#max-work-section {
+	background: #f6f6f6;
+}
+
+#max-work-container {
+	background: #f6f6f6;
+	width: 100%;
+	/* padding-left: 100px;
+	padding-right: 100px; */
+}
+
+div#max-work-para {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Raleway';
+    color: #363636;
+    line-height: 24px;
+}
+
+.portfolio-menu.center {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.portfolio-menu a {
+	padding: 10px;
+}
+
+div#portfolio-box {
+	background: #f6f6f6;
+	padding-top: 50px;
+	position: relative;
+}
+
+div#portfolio-box img {
+	height: auto;
+	width: 100%;
+}
+
+
+
+/*
+-----------------------------------------------
+	6) Customer Say Section / Testimonials
+-----------------------------------------------
+*/
+
+#max-testimonial-section {
+	width: 100%;
+	background: url(../images/testimonial-background.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+div#max-customer-section {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+/* Carousel */
+
+#quote-carousel {
+	padding: 0 10px 30px 10px;
+	margin-top: 30px;
+	/* Control buttons  */
+	/* Previous button  */
+	/* Next button  */
+	/* Changes the position of the indicators */
+	/* Changes the color of the indicators */
+}
+
+#quote-carousel .carousel-control {
+	background: none;
+	color: #CACACA;
+	font-size: 2.3em;
+	text-shadow: none;
+	margin-top: 30px;
+}
+
+#quote-carousel .carousel-control.left {
+	left: -60px;
+}
+
+#quote-carousel .carousel-control.right {
+	right: -60px;
+}
+
+#quote-carousel .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 400px;
+	/* margin-top: 20px; */
+	margin-right: -19px;
+}
+
+h2.name {
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+span.skill {
+    font-size: 17px;
+    font-family: Raleway;
+    color: #00b3e4;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+p.testimonial-quote {
+	font-size: 15px;
+	font-family: Raleway;
+	padding-top: 20px;
+	color: #363636;
+	line-height: 24px;
+}
+
+.testimonial-box {
+    background: #f6f6f6;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#quote-carousel .carousel-indicators li {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	cursor: pointer;
+	border: 4px solid #CCC;
+	border-radius: 50px;
+	opacity: 0.4;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+
+#quote-carousel .carousel-indicators .active {
+	background: #333333;
+	width: 128px;
+	height: 128px;
+	border-radius: 100px;
+	border-color: #04b4e4;
+	opacity: 1;
+	overflow: hidden;
+}
+
+.carousel-inner {
+	min-height: 300px;
+	margin-top: 300px;
+}
+
+.item blockquote {
+	border-left: none;
+	margin: 0;
+}
+
+.item blockquote p:before {
+	content: "\f10d";
+	font-family: 'Fontawesome';
+	float: left;
+	margin-right: 10px;
+}
+
+
+/*
+-----------------------------------------------
+	7) Numbers Section
+-----------------------------------------------
+*/
+
+#max-numberbox {
+	background: #00b3e4;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+span.number {
+	font-size: 50px;
+	font-family: Raleway;
+	color: #fff;
+}
+
+#max-numberbox p {
+	color: #fff;
+	font-size: 20px;
+	font-family: Raleway;
+}
+
+
+/*
+-----------------------------------------------
+	8) Meet The Team Section
+-----------------------------------------------
+*/
+
+#max-team-section {
+	width: 100%;
+	background: #f6f6f6;
+        padding-bottom: 50px;
+}
+
+div#max-team {
+	background: #f6f6f6;
+	padding-left: 100px;
+	padding-right: 100px; 
+	padding-bottom: 50px;
+}
+
+div#max-team-para {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	font-size: 15px;
+	font-family: Raleway;
+	line-height: 24px;
+}
+
+.member-box {
+	background: #fff;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+.member-profile {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.member-profile h2 {
+    font-family: Raleway;
+    text-transform: uppercase;
+    color: #363636;
+    font-size: 20px;
+    line-height: 24px;
+}
+.member-profile span {
+    color: #00b3e4;
+    font-size: 17px;
+    font-family: Raleway;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.member-profile:hover .social-icons {
+    display: block !important;
+	transition: .3s ease;
+	
+}
+.member-profile:hover img {
+	opacity: .50;
+	transition: .3s ease;
+}
+.member-profile img {
+	position: relative;
+}
+
+.social-icons {
+    position: absolute;
+    width: 100%;
+    font-size: 30px;
+    height: 269px;
+    padding: 30px;
+    left: 0;
+    bottom: 0;
+	display: none;
+}
+.social-icons a {
+    color: #363636;
+    text-decoration: none;
+}
+.social-icons a:hover {
+	color: #00b3e4;
+}
+
+/*
+-----------------------------------------------
+	9) Skills or Experties Section
+-----------------------------------------------
+*/
+
+#max-experties-section {
+	background: #fff;
+}
+
+div#max-skills {
+	background: #fff;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+#doughnut,#doughnut2,#doughnut3,#doughnut4{
+  position: absolute;
+}
+#skill1,#skill2,#skill3,#skill4{
+  position: relative;
+}
+div#max-skillbar {
+	margin-top: 50px;
+}
+div#max-skillbar h1 {
+    font-family: Raleway;
+    font-size: 20px;
+}
+div#max-skills {
+    background: #fff;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    /* padding-top: 30px; */
+}
+/*
+-----------------------------------------------
+	10) Packages or Purchases Section
+-----------------------------------------------
+*/
+
+#max-purchase-section {
+	width: 100%;
+	background: url(../images/pricing-bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#max-packages-section {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+div#max-packages-para {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 24px;
+    color: #363636;
+}
+
+.plan-box {
+	background: #fff;
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+.plan-box .btn-primary {
+	color: #00b3e4 !important;
+	background-color: transparent !important;
+	border-color: #00b3e4 !important;
+	text-transform: uppercase !important;
+	margin-top: 30px;
+	margin-right: 10px;
+	font-size: 15px !important;
+	font-family: Raleway;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.plan-box .btn-primary:hover {
+	color: #fff !important;
+	background-color: #00b3e4 !important;
+}
+
+h3.plan-title {
+	font-family: Raleway;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.price {
+	padding: 20px;
+	background: #e0e0e0;
+}
+
+#classic-price {
+	padding: 20px;
+	background: #00b3e4;
+}
+
+span.small-text {
+	font-family: Raleway;
+	font-size: 24px;
+	color: #5e5e5e;
+}
+
+span.big {
+	font-family: Raleway;
+	font-size: 70px;
+	font-weight: bold;
+	color: #5e5e5e;
+}
+
+#classic-price span.big {
+	font-family: Raleway;
+	font-size: 70px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#classic-price span.small-text {
+	font-family: Raleway;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.features {
+	padding-top: 20px;
+	font-size: 20px;
+	padding-right: 50px;
+	font-family: Raleway;
+}
+
+
+/*
+-----------------------------------------------
+	11) Blue Slider Section
+-----------------------------------------------
+*/
+
+#max-slider-section {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #00b3e4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+
+#owl-demo .item {
+	margin: 3px;
+}
+
+#owl-demo .item img {
+	display: block;
+	/*width: 100%;*/
+	height: auto;
+}
+
+
+/*
+-----------------------------------------------
+	12) Blog Section
+-----------------------------------------------
+*/
+
+#max-blogger-section {
+	background: #fff;
+	width: 100%;
+}
+
+div#max-blog-section {
+	background: #fff;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+}
+
+#max-blog-para {
+    padding-bottom: 30px;
+    color: #363636;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 24px;
+}
+
+.post-box h2 a {
+	color: #00b3e4;
+	font-size: 25px;
+	font-family: Raleway;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.post-box a:hover {
+	color: #337ab7;
+}
+
+.meta {
+    font-size: 13px;
+    color: #363636;
+    font-family: Raleway;
+    line-height: 24px;
+}
+
+.post-box span {
+	color: #4c4c4c;
+	font-weight: bold;
+	font-family: Raleway;
+	font-size: 15px;
+}
+
+.post-box p {
+    padding-top: 10px;
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 24px;
+    color: #363636;
+}
+
+#max-blog-section .btn-primary {
+	color: #fff !important;
+	background-color: #363636 !important;
+	border-color: #dbd9d7 !important;
+	text-transform: uppercase !important;
+}
+
+#max-blog-section .btn-primary:hover {
+	color: #fff !important;
+	background-color: #00b3e4 !important;
+	transition: .3s ease;
+}
+
+#max-blog-section .btn {
+    border-radius: 0px !important;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+
+/*
+-----------------------------------------------
+	13) MAP Section
+-----------------------------------------------
+*/
+
+#max-mapsection {
+	width: 100%;
+}
+
+#map {
+	width: 100%;
+	height: 543px;
+}
+
+
+/*
+-----------------------------------------------
+	14) Contact Section
+-----------------------------------------------
+*/
+
+#contact-section {
+	background: #f6f6f6;
+	width: 100%;
+}
+
+div#max-contact-section {
+	background: #f6f6f6;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+#max-contact-para {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 24px;
+    color: #363636;
+}
+
+.detail-block p {
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 30px;
+    color: #363636;
+}
+
+.icon-block {
+	float: left;
+	padding-top: 15px;
+}
+
+.detail-block {
+	float: left;
+	margin-left: 10px;
+}
+
+
+/*Contact Form */
+
+.get-in-touch {
+	/*max-width: 650px;*/
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-top: 200px;
+	padding: 30px;
+}
+
+.contact-form .form-field {
+	margin: 20px 0;
+}
+
+form.contact-form.row {
+	padding-top: 50px;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    color: #363636;
+    padding: 20px;
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+textarea#message {
+	height: 150px !important;
+}
+
+.contact-form .input-text:focus {
+	outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+	-webkit-transform: translateY(-24px);
+	transform: translateY(-24px);
+}
+
+.contact-form .label {
+	position: absolute;
+	left: 20px;
+	bottom: 11px;
+	font-family: Raleway;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #888;
+	cursor: text;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.contact-form .btn-primary {
+    color: #383838!important;
+    background-color: transparent !important;
+    border-color: #383838 !important;
+    text-transform: uppercase !important;
+    font-family: Raleway;
+    font-size: 15px !important;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact-form .btn-primary:hover {
+	color: #fff !important;
+	background-color: #00b3e4 !important;
+	border-color: #00b3e4 !important;
+}
+
+.contact-form input {
+	background: #f6f6f6 !important;
+	border: 1px solid #363636 !important;
+}
+
+.contact-form textarea {
+	background: #f6f6f6 !important;
+	border: 1px solid #363636 !important;
+}
+
+.note {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-family: Lusitana, serif;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.note .link {
+	color: #888;
+	text-decoration: none;
+}
+
+.note .link:hover {
+	text-decoration: underline;
+}
+
+
+/*
+-----------------------------------------------
+	15) Footer Section
+-----------------------------------------------
+*/
+
+#max-footer {
+	width: 100%;
+	background: #fff;
+	padding-left: 100px;
+	padding-right: 100px;
+    padding-top: 15px;
+}
+
+div#footer-social {
+	padding: 30px 0;
+}
+
+#footer-social a {
+	padding: 10px;
+	color: #363636;
+}
+
+#footer-social a:hover {
+	color: #00b3e4;
+}
+div#footer-copyrights {
+    padding: 30px 0;
+    color: #363636;
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 30px;
+}
+
+
+/*
+-----------------------------------------------
+	16) Creative Works/Portfolio Section
+-----------------------------------------------
+*/
+
+.portfolio-section {
+	/*padding-bottom: 40px;*/
+}
+
+.features ul li {
+	list-style: none;
+	padding-top: 10px;
+}
+
+
+/* category filter */
+
+.filter-container {
+	text-align: center;
+	padding: 20px
+}
+
+ul.filter > li > a {
+	color: #5e5e5e;
+	font-size: 15px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	padding: 5px;
+}
+
+ul.filter > li > a:hover,
+ul.filter > li > a:focus {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+	background: #00b3e4;
+	padding: 5px;
+	transition: .3s ease;
+}
+
+ul.filter > li.active a {
+	color: #fff;
+	background: #00b3e4;
+	padding: 5px;
+}
+
+ul.filter > li span {
+	color: #ddd;
+	font-size: 20px;
+	display: inline-block;
+	margin: 0 5px
+}
+
+.filter-section .filter-container .filter > li {
+	padding-left: 20px;
+	margin: 0
+}
+
+.filter-section h1 {
+	text-align: center
+}
+
+
+/* the color of the transparent overlay border */
+
+.portfolio-section.port-col figure .overlay-background {
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* portfolio images */
+
+.kill-padding {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.portfolio-section figure {
+	float: left;
+	width: 100%;
+	position: relative
+}
+
+.portfolio-section figure img {
+	width: 100%;
+	height: auto
+}
+
+
+/* project title under image */
+
+.portfolio-section .article-title {
+	text-align: center;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 10px 0 30px 0;
+}
+
+.portfolio-section .article-title a {
+	color: #aaa
+}
+
+
+/* transparent overlay */
+
+.portfolio-section figure:hover .overlay {
+	opacity: 1;
+	visibility: visible
+}
+
+.portfolio-section figure:hover .overlay-background {
+	opacity: .8;
+	visibility: visible
+}
+
+.portfolio-section figure .overlay-background {
+	z-index: 1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	width: 100%;
+	height: 100%
+}
+
+.portfolio-section figure .overlay-background .inner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: #595957;
+}
+
+.portfolio-section figure .overlay {
+	z-index: 2;
+	transition: all .2s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	width: 100%;
+	height: 100%
+}
+
+.portfolio-section figure .inner-overlay {
+	display: table;
+	width: 100%;
+	height: 100%
+}
+
+.portfolio-section figure .inner-overlay-content {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	padding: 20px 40px
+}
+
+.portfolio-section figure .inner-overlay-content.with-icons {
+	text-align: center
+}
+
+.portfolio-section figure .inner-overlay-content.with-icons h2 {
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 28px;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+
+/* icons inside overlay */
+
+.portfolio-section figure .inner-overlay-content.with-icons a {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	line-height: 42px;
+	display: inline-block;
+	margin: 0 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+.portfolio-section figure .inner-overlay-content.with-icons a:hover {
+	color: #00b3e4;
+	border-color: #00b3e4;
+}
+
+
+/* skew image on hover */
+
+.isotopeSelector img {
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease
+}
+
+.isotopeSelector:hover img {
+	-moz-transform: scale(1.5) rotate(2deg);
+	-webkit-transform: scale(1.5) rotate(2deg);
+	-o-transform: scale(1.5) rotate(2deg);
+	-ms-transform: scale(1.5) rotate(2deg);
+	transform: scale(1.5) rotate(2deg);
+	-webkit-transition: all .8s ease;
+	-moz-transition: all .8s ease;
+	-ms-transition: all .8s ease;
+	-o-transition: all .8s ease;
+	transition: all .8s ease
+}
+
+.isotopeSelector figure {
+	overflow: hidden
+}
+
+.isotopeSelector figure {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
+}
+/*
+-----------------------------------------------
+	17) Responsive 
+-----------------------------------------------
+*/
+
+
+/*Change the width if screen is 999 or plus*/
+@media screen and (min-width: 999px) {
+	div#max-title h1 {
+		font-size: 75px;
+		letter-spacing: 2px;
+	}
+        #max-contact-section > div:nth-child(3) { margin-top: -100px; height: 160px; }
+	div#max-sliderrow {
+		padding-left: 150px;
+		padding-right: 100px;
+	}
+	div#footer-copyrights {
+		margin-left: 200px;
+	}
+	
+	
+	
+}
+@media screen and (max-width: 735px) {
+	#aboutus-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#box {
+		padding: 10px;
+	}
+	#box p {
+		font-size: 13px;
+		padding-top: 10px;
+	}
+	#max-feature-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#max-feature-section p {
+		font-size: 13px;
+		padding-top: 10px;
+	}
+	#max-work-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.portfolio-section figure .inner-overlay-content.with-icons h2 {
+		font-size: 15px;
+	}
+	div#max-customer-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	div#max-team {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#max-numberbox {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	div#max-skills {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.bar-circle {
+		width: 50px;
+	}
+	.bar h3 {
+		font-size: 10px;
+	} 
+	span.big {
+		font-size: 40px;
+	}
+	#classic-price span.big {
+		font-size: 40px;
+	}
+	.plan-box {
+    	margin-top: 5px; 
+	}
+	div#max-blog-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.post-box p {
+		font-size: 11px;
+	}
+	#max-packages-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	div#max-contact-section {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#max-footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#quote-carousel {
+    	padding: 0px;
+	}
+	div#max-top-buttons .btn {
+		margin-top: 20px;
+	}
+	
+}
