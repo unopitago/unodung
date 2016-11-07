@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:400i|Roboto');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Start style */
+
+/*Start style ss1*/
+
+.wrapper{
+    background: #fff;
+}
+.head {
+	background: #666666;
+}
+.ss1 {
+	padding: 40px 0px 30px 0px;
+	font-weight: bold;
+	height: 120px;
+}
+.ss1 h3{
+	margin: 0px 20px 0px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.number_record {
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+}
+.generate {
+	margin-left: 20px;
+}
+.abc{
+	
+}
+/*End style ss1*/
+
+/*Start style ss2*/
+.ss2 {
+	padding-left: 17px;
+}
+.content {
+	background: whitesmoke;
+}
+.field_npt h3{
+	padding-right: 40px;
+	padding-left: 10px;
+}
+.title a {
+	color: #555358;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.title a:hover {
+	color: #99959E;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.time {
+	padding-top: 10px;
+}
+.time input {
+	width: 50px;
+}
+#clockdiv{
+    margin-top: 10px;
+}
+.time .hh {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.time .mm{
+    margin-right: 10px;
+}
+.article1  {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #bbb0bc;
+	width: 1160px;
+	height: 110px;
+	padding-top: 20px;
+}
+.option_article button {
+	margin-left: 20px;
+}
+.reset_option {
+	margin-top: 10px;
+}
+.delete_option {
+	margin-top: 10px;
+}
+
+
+/*End style ss2*/
+
+/*End style*/
