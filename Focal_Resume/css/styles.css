@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+/*
+-----------------------------------------------
+Focal Resume Version 1.0
+Author: UNO
+-----------------------------------------------
+0) Global CSS
+1) Top slider
+2) Main navigation
+3) Top areas 
+4) About me
+5) Skills
+6) Download resume
+7-8) Education, Work experien
+9) Testimonatials
+10) Portfolio
+11)  Contact
+12) Footer
+13) Responsive
+
+-----------------------------------------------
+*/
+/*
+-----------------------------------------------
+	0) Global CSS
+-----------------------------------------------
+*/
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.block {
+    display: block;
+}
+.none {
+    display: none !important;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #566366;
+    font-weight: bold;
+}
+/*h5{
+	font-style: 18px;
+    margin: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 100px;
+}*/
+
+h6 {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 10px;
+}
+p {
+    font-size: 18px;
+}
+.h3-title {
+    text-transform: uppercase;
+    color: #566366;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.h5-test {
+    margin: 40px 0px;
+    color: #566366;
+}
+.p-test {
+    margin-top: 70px;
+    color: #919191;
+    font-style: italic;
+}
+.p-content {
+    color: #919191;
+    margin-bottom: 40px;
+}
+.p-posts {
+    margin-bottom: 10px;
+}
+.p-portfolio {
+    font-size: 14px;
+}
+.sticky {
+    position: fixed;
+    top: 0px;
+    z-index: 999999;
+}
+.my-button {
+    background: transparent;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-posts {
+    background: #2ecc71;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 10px;
+    padding: 10px 15px;
+}
+/*
+-----------------------------------------------
+	1) Top Slider
+-----------------------------------------------
+*/
+
+.carousel-caption {
+    top: 160px;
+}
+.carousel-caption .slider_button {
+    border: 2px solid #fff;
+}
+.carousel-caption h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0px;
+}
+.carousel-caption button {
+    margin-top: 50px;
+}
+.carousel-indicators li {
+    display: block;
+    position: relative;
+    left: 950px;
+    top: 0px;
+    border: 2px solid #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*
+-----------------------------------------------
+	2)  main navigation
+-----------------------------------------------
+*/
+.wrap-main-navigation {
+    background: #252e30;
+    width: 100%;
+}
+.navbar-default{        
+	background: #252e30;
+    height: 85px;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #2ecc71;
+}
+.navbar-default ul {
+    padding-top: 20px;
+}
+.navbar-collapse {
+    border-top: none;
+    background: #252e30;
+}
+
+/*
+-----------------------------------------------
+	3)  Top areas
+-----------------------------------------------
+*/
+
+.inner-top-areas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inner-top-areas .col-md-4 {
+    padding: 0px 18px;
+}
+/*
+-----------------------------------------------
+	4)  About me
+-----------------------------------------------
+*/
+
+.wrap-about-me {
+    background: #f2f2f1;
+}
+.inner-about-me {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.info-about-me {
+    padding-left: 75px;
+}
+.my-study .info-study img {
+    float: left;
+    margin-right: 25px;
+}
+.my-study .info-study p {
+    overflow: hidden;
+}
+/*
+-----------------------------------------------
+	5)  Skills
+-----------------------------------------------
+*/
+
+.contact-me-button {
+    color: #2ecc71;
+    background: transparent;
+    border: 2px solid #2ecc71;
+}
+.my-skills {
+    margin-bottom: 100px;
+}
+/*detail skills*/
+
+.detail-skills {
+    padding-top: 70px;
+}
+.myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #ddd;
+}
+#photoshop,
+#illustrator,
+#htmlcss,
+#phpmysql {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #4CAF50;
+}
+.label {
+ 	float: right;
+    line-height: 30px;
+    color: white;
+    font-size: 16px;
+}
+/*
+-----------------------------------------------
+	6)  Download resume
+-----------------------------------------------
+*/
+
+.wrap-download-resume {
+    background: #f2f2f1;
+    padding-bottom: 70px;
+}
+.button-download-resume {
+    background: transparent;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+}
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid #f2f2f1;
+    /* Tam giác phía trên được đổ màu */
+    
+    position: relative;
+    top: 90px;
+    left: 560px;
+}
+/*
+-----------------------------------------------
+	7-8)  Education, Work experience
+-----------------------------------------------
+*/
+
+.wrap-education {
+    background: #fff;
+}
+.side-title {
+    padding-right: 20px;
+}
+.side-posts {
+    padding-top: 150px;
+}
+.posts {
+    margin-bottom: 70px;
+}
+/*
+-----------------------------------------------
+	9)  Testimonatials
+-----------------------------------------------
+*/
+
+.wrap-testimonatials {
+    background: #f2f2f1;
+    height: 300px;
+}
+#owl-demo .item {
+    margin: 3px;
+}
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: transparent;
+    border: 2px solid #2ecc71;
+}
+.owl-theme .owl-controls .owl-page span:hover {
+    background: #2ecc72;
+    border: 2px solid #2ecc71;
+}
+.owl-theme .owl-controls .active span {
+    background: #2ecc72;
+    border: 2px solid #2ecc71;
+}
+/*
+-----------------------------------------------
+	10)  Portfolio
+-----------------------------------------------
+*/
+
+.wrap-portfolio {
+    padding-bottom: 100px;
+}
+/* ---- button ---- */
+
+#by-filter {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#by-filter h5 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+#by-filter li {
+    list-style: none;
+    margin: 10px 0px;
+}
+#filters button:hover,
+#filters button:active,
+#filters button:focus {
+    color: #fff;
+    border: none;
+}
+#by-filter li:first-child {
+    color: #fff;
+    margin: 7px 8px;
+}
+#by-filter li button {
+    text-transform: capitalize;
+    border: none;
+    background: transparent;
+    color: #919191;
+}
+/* ---- isotope ---- */
+
+.grid #filters {
+    background: #252e30;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 365px;
+    height: 285px;
+}
+.grid {
+    border: none;
+}
+/* ---- .element-item ---- */
+
+.element-item {
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+}
+/*
+-----------------------------------------------
+	11)  Contact
+-----------------------------------------------
+*/
+
+.wrap-contact {
+    background: #252e30;
+    color: #919191;
+}
+.inner-contact {
+    padding-bottom: 100px;
+}
+.wrap-contact .content-contact {
+    padding-right: 60px;
+}
+.wrap-contact .form-contact {
+    padding-left: 40px;
+}
+.wrap-contact .content-contact h3 {
+    color: #fff;
+}
+.wrap-contact .content-contact .address {
+    padding-bottom: 0px;
+}
+.wrap-contact .form-contact {
+    margin-top: 125px;
+}
+.wrap-contact .email-phone-contact {
+    list-style: none;
+    padding-left: 0px;
+}
+.wrap-contact .email-phone-contact li span {
+    padding-left: 25px;
+}
+.wrap-contact .form-contact input {
+    margin-bottom: 40px;
+    border: none;
+    background: #919191;
+    color: #fff;
+    font-size: 22px;
+    width: 100%;
+    height: 53px;
+}
+.wrap-contact .form-contact textarea {
+    width: 100%;
+    height: 250px;
+    resize: vertical;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    border: none;
+    background: #919191;
+    color: #fff;
+    font-size: 22px;
+    text-indent: 20px;
+}
+.wrap-contact .form-contact p {
+    margin-bottom: 12px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.wrap-contact .form-contact p::after {
+    content: "*";
+    color: #919191;
+    margin-left: 6px;
+}
+.wrap-contact .form-contact button {
+    border: none;
+    background: #191f21;
+    color: #fff;
+}
+/*
+-----------------------------------------------
+	12)  Footer
+-----------------------------------------------
+*/
+
+.wrap-footer {
+    background: #191f21;
+    padding: 30px 0px;
+}
+.social-link-follow-me {
+    list-style: none;
+}
+.social-link-follow-me li {
+    float: left;
+}
+.content-footer h6 {
+    color: #919191;
+    margin-bottom: 20px;
+}
+.social-link-follow-me i {
+    width: 30px;
+    height: 30px;
+    background: #919191;
+    color: #191f21;
+    margin-left: 10px;
+    padding: 8px;
+}
+.social-link-follow-me i:hover,
+.social-link-follow-me i:focus {
+    color: #fff;
+}
+
+/*
+-----------------------------------------------
+	12)  Responsive
+-----------------------------------------------
+*/
+@media only screen and (min-width: 990px) {
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 989px){
+	.navbar-default .navbar-nav>li>a {
+	    font-size: 13px;
+	}
+	.nav>li>a {
+	    padding-left: 5px;
+	    padding-right: 5px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 767px;){
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
